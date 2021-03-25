@@ -231,6 +231,13 @@ return [
             'can'  => 'manage-blog',
         ],
         [
+            'text'        => 'Accueil',
+            'url'         => '/',
+            'icon'        => 'fas fa-newspaper',
+            // 'label'       => 4,
+            // 'label_color' => 'success',
+        ],
+        [
             'text'        => 'Posts',
             'url'         => 'admin/post',
             'icon'        => 'fas fa-newspaper',
