@@ -28,6 +28,6 @@ class InscriptionMail extends Mailable
      */
     public function build()
     {
-        return $this->from('admin@admin.com')->subject("Inscription")->view('mails.inscription')->with(['mail'=> $this->mail]);
+        return $this->from('admin@admin.com')->subject("Inscription")->view('partial.mails.inscription')->with(['mail'=> $this->mail]);
     }
 }

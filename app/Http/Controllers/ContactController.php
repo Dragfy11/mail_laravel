@@ -18,7 +18,7 @@ class ContactController extends Controller
     public function indexS()
     {
         $subjects = Objet::all();
-        return view('contact.index',compact('subjects'));
+        return view('partial.contact.index',compact('subjects'));
     }
     public function index(){
         $mails = Contact::paginate(4);

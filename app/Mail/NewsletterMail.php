@@ -28,6 +28,6 @@ class NewsletterMail extends Mailable
      */
     public function build()
     {
-        return $this->from('admin@admin.com')->subject("Inscription Newsletter")->view('mails.newsletter')->with(['mail'=> $this->mail]);
+        return $this->from('admin@admin.com')->subject("Inscription Newsletter")->view('partial.mails.newsletter')->with(['mail'=> $this->mail]);
     }
 }
