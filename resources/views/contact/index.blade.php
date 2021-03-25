@@ -1,6 +1,7 @@
 @extends('templates.main')
 @section('content')
-<button><a href="/">Revenir à home</a></button>
+<button><a href="/home">Revenir à home</a></button>
+<button><a href="/admin/contact">Contact admin</a></button>
 <div class="my-3 p-3 bg-white rounded shadow-sm">
     <h6 class="border-bottom pb-2 mb-0">Contact</h6>
     <div class=" text-muted pt-3">   

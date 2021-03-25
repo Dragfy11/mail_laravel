@@ -224,11 +224,7 @@ return [
     */
 
     'menu' => [
-        [
-            'text' => 'search',
-            'search' => true,
-            'topnav' => true,
-        ],
+        
         [
             'text' => 'blog',
             'url'  => 'admin/blog',
@@ -237,6 +233,13 @@ return [
         [
             'text'        => 'Posts',
             'url'         => 'admin/post',
+            'icon'        => 'fas fa-newspaper',
+            // 'label'       => 4,
+            // 'label_color' => 'success',
+        ],
+        [
+            'text'        => 'Contact',
+            'url'         => 'contact',
             'icon'        => 'fas fa-newspaper',
             // 'label'       => 4,
             // 'label_color' => 'success',

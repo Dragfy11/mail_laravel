@@ -48,6 +48,7 @@ class ContactController extends Controller
        $mail->text = $request->message;
        $mail->subject_id = $request->subject;
        $mail->save();
+       
        return redirect()->back()->with('msg','Merci de nous avoir contacté');
     }
 
